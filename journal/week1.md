@@ -84,6 +84,7 @@ Run in background
 ```sh
 docker container run --rm -p 4567:4567 -d backend-flask
 ```
+In Gitpod Can go to containers > Individual Containers > Attach Shell to get container shell.  Stop to stop.
 
 Return the container id into an Env Vat
 ```sh
