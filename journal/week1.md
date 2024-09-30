@@ -86,6 +86,7 @@ unset BACKEND_URL
 
 Run in background
 ```sh
+# --rm remove when finished -d run in background
 docker container run -e FRONTEND_URL='*' -e BACKEND_URL='*' --rm -p 4567:4567 -d backend-flask
 ```
 In Gitpod Can go to containers > Individual Containers > Attach Shell to get container shell.  Stop to stop.
