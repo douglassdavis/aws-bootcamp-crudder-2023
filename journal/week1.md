@@ -58,6 +58,11 @@ CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ### Build Container
 
 ```sh
+# -t is for tag aka name.  usually <name>:<tag>  where tag by default is "latest"
+# which doesn't really mean the latest one
+#
+# builds image (really composed of many files under /var)
+# can see of list of "docker images"
 docker build -t  backend-flask ./backend-flask
 ```
 
