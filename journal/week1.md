@@ -202,6 +202,10 @@ docker run -p 3000:3000 -d frontend-react-js
 ### Create a docker-compose file
 
 Create `docker-compose.yml` at the root of your project.
+This allows you to build two different docker images
+Can right click on file and click "Compose Up"
+
+docker compose -f "docker-compose.yml" up -d --build 
 
 ```yaml
 version: "3.8"
